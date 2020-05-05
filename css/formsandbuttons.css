@@ -1,0 +1,98 @@
+.button {
+    background-color: #933; 
+    color: white; 
+	border-radius: 25px;
+    padding: 5px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background-color: #2B2B2B;
+    color: white;
+}
+
+form.form-p1 input[type=text], form.form-p1 input[type=email], form.form-p1 input[type=password] {
+    font-size: 14px;
+    width: 60%;
+    padding: 6px 12px;
+    margin: 2px 0;
+    display: inline-block;
+    border: 2px solid #BDBAB4;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form.form-p1 fieldset {
+    border: 2px solid #BDBAB4;
+    border-radius: 4px;
+    width: 300px;
+
+}
+
+form.form-p1 input[type=submit] {
+    width: 20;
+    background-color: #933;
+    color: white;
+    font-size: 16px;
+    padding: 8px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+        transition-duration: 0.4s;
+    text-transform: uppercase;
+}
+
+form.form-p1 input[type=submit]:hover {
+    background-color: #2B2B2B;
+    color: white;
+}
+
+
+
+form.form-p2 input[type=text], form.form-p2 input[type=email], form.form-p2 input[type=password], select, textarea {
+    font-size: 14px;
+    width: 75%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #2B2B2B;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: none;
+}
+
+form.form-p2 fieldset {
+    border: 2px solid #2B2B2B;
+    border-radius: 4px;
+    width: 60%;
+    
+}
+
+form.form-p2 input[type=submit], form.form-p2 input[type=reset] {
+    width: 20%;
+    background-color: #4CAF50;
+    color: black;
+    font-size: 16px;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    text-transform: uppercase;
+}
+
+form.form-p2 input[type=submit]:hover, form.form-p2 input[type=reset]:hover {
+    background-color: #45a049;
+}
